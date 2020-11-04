@@ -18,7 +18,7 @@
         <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Start" VerticalOptions="Start" Margin="20, 50">
             <ImageButton Source="user.jpg" WidthRequest="23" HeightRequest="15" HorizontalOptions="Start" VerticalOptions="Center"/>
 
-            <Label Text="Nombre de usuario" FontSize="16"
+            <Label Text="Admin" FontSize="16"
                 VerticalOptions="Center" 
                 TextColor="White"/>
         </StackLayout>
@@ -26,12 +26,12 @@
         <StackLayout Orientation="Vertical" Margin="0, 20" HorizontalOptions="Center" VerticalOptions="Center">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                 <Image Source="nada.jpg" WidthRequest="50" HeightRequest="50" VerticalOptions="Center"/>
-                <Label Text="pWatch" VerticalOptions="Center" TextColor="White" FontSize="70" FontAttributes="Bold" />
+                <Label Text="pWatch" VerticalOptions="Center" TextColor="White" FontSize="40" FontAttributes="Bold" />
                 <Label Text="." VerticalOptions="Center" TextColor="White" FontSize="34" />
             </StackLayout>
 
-            <Label Text="This is our About US Page." HorizontalOptions="Center" TextColor="White" FontSize="16"/>
-            <Label Text="June 15, 09:03 AM" HorizontalOptions="Center" TextColor="White" FontSize="12" />
+            <Label Text="Cuide su salud" HorizontalOptions="Center" TextColor="White" FontSize="16"/>
+            <Label Text="OCT 16, 21:18 PM" HorizontalOptions="Center" TextColor="White" FontSize="12" />
         </StackLayout>
 
 
@@ -44,37 +44,30 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    
                 </Grid.ColumnDefinitions>
                 <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
-                    <Image Source="hospital.png" HeightRequest="25" HorizontalOptions="Center"/>
+                    <Image Source="tel.png" HeightRequest="25" HorizontalOptions="Center"/>
                     <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
-                        <Label Text="50%" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
-                        <Label Text="Humedad" TextColor="#7D7D7D" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
+                        <Label Text="CALL" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
+                        <Label Text="Emergencia" TextColor="#7D7D7D" FontSize="11" FontAttributes="Bold" HorizontalOptions="Center"/>
                     </StackLayout>
                 </StackLayout>
 
+
                 <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
-                    <Image Source="monitor.png" HeightRequest="25" HorizontalOptions="Center"/>
+                    <Image Source="heart.png" HeightRequest="25" HorizontalOptions="Center"/>
                     <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
-                        <Label Text="2.6 m/s" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
-                        <Label Text="Wind" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
+                        <Label Text="80" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
+                        <Label Text="Frec. Cardíaca" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
                     </StackLayout>
                 </StackLayout>
 
                 <StackLayout Grid.Column="2" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
                     <Image Source="heart.png" HeightRequest="25" HorizontalOptions="Center"/>
                     <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
-                        <Label Text="2.6 m/s" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
-                        <Label Text="Wind" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
-                    </StackLayout>
-                </StackLayout>
-
-                <StackLayout Grid.Column="3" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
-                    <Image Source="heart.png" HeightRequest="25" HorizontalOptions="Center"/>
-                    <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
-                        <Label Text="2.6 m/s" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
-                        <Label Text="Wind" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
+                        <Label Text="110" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
+                        <Label Text="Presión" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
                     </StackLayout>
                 </StackLayout>
 

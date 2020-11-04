@@ -3023,22 +3023,25 @@ namespace SplashyApp.Droid
 			public const int ProfileSetting = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int tooltip_frame_dark = 2131165501;
+			public const int tel = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int tooltip_frame_light = 2131165502;
+			public const int tooltip_frame_dark = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int user = 2131165503;
+			public const int tooltip_frame_light = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int UserClok = 2131165504;
+			public const int user = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int UserProfile = 2131165505;
+			public const int UserClok = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int usr = 2131165506;
+			public const int UserProfile = 2131165506;
+			
+			// aapt resource value: 0x7F070143
+			public const int usr = 2131165507;
 			
 			static Drawable()
 			{
